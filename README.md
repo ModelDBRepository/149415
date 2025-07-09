@@ -24,14 +24,10 @@ The plots show membrane potential of M0-M2 soma and lateral dendrite of M0 at 80
 In the simulations, all mitral cells receive the same input. Note that firing of M2 depends on the activation of GC1 by M1, which gates the backpropagation of the APs along the M0 lateral dendrite. As a consequence, GC2 will not be activated and M2 can fire APs. With GC1 inactive, APs from M0 backpropagate until they activate GC2, inhibiting M2.
 
 Under unix systems:  
-to compile the mod files use the command  
-`nrnivmodl`  
-and run the simulation file with the command  
-`nrngui filename`
+to compile the mod files use the command `nrnivmodl` and run the simulation file with the command `nrngui filename`
 
 Under Windows systems:  
-to compile the mod files use the "mknrndll" command.  
-A double click on a simulation file will open the simulation window.
+to compile the mod files use the "mknrndll" command. A double click on a simulation file will open the simulation window.
 
 Questions on how to use this model should be directed to michele.migliore@cnr.it
 
